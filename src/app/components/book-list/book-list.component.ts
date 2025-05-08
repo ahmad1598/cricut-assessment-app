@@ -1,5 +1,5 @@
 import { AsyncPipe, CommonModule, NgIf } from '@angular/common';
-import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Component } from '@angular/core';
 import { Book } from '../../models/book.interface';
 import { Router } from '@angular/router';
 import { BookService } from '../../services/book.service';

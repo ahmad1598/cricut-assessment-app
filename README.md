@@ -1,6 +1,34 @@
-# CricutAssessmentApp
+# Book Finder App
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.1.
+A modern web application built with Angular that allows users to search and explore books using the Google Books API.
+
+![Book Finder App Homepage](./src/assets/screenshots/1.png)
+![](s/2.png)
+
+## Features
+
+- Real-time book search using Google Books API
+- Responsive grid layout for search results
+- Detailed view for each book
+- Clean and modern UI design
+- State persistence for search results
+
+![Book Details View](./src/assets/screenshots/3.png)
+
+## Project Structure
+
+```
+src/
+├── app/
+│   ├── components/
+│   │   ├── book-list/
+│   │   ├── book-detail/
+│   │   └── search-bar/
+│   ├── services/
+│   │   └── book.service.ts
+│   └── models/
+│       └── book.interface.ts
+```
 
 ## Development server
 
