@@ -1,5 +1,0 @@
-<div class="search-box">
-    <input type="text" placeholder="Search for books..." 
-    [(ngModel)]="searchTerm" [disabled]="bookService.isLoading" (keyup.enter)="onSearch()" />
-    <button (click)="onSearch()">{{ bookService.isLoading ? 'Searching...' : 'Search' }}</button>
-</div>
