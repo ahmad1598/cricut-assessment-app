@@ -1,0 +1,10 @@
+<div class="app-container">
+  <header>
+    <h1>Book Finder</h1>
+    <app-search-bar></app-search-bar>
+  </header>
+  <main>
+    <div *ngIf="bookService.isLoading" class="loading">Searching for books...</div>
+    <router-outlet></router-outlet>
+  </main>
+</div>
